@@ -746,7 +746,7 @@ h4 {
 }
 
 .black-background {
-    background-color: rgba(165, 147, 99, 1);
+    background-color: rgba(0,0,0,0.7);
     padding: 40px 40px 40px 40px;
 }
 
@@ -768,11 +768,11 @@ h4 {
 }
 
 .tc-white {
-    color: #F06B2D!important;
+    color: #F06B2D !important;
 }
 
 .btn-atomic-tangerine {
-    background-color: #F06B2D;
+    background-color: #CD4B0E;
     color: #FFFFFF!important;
 }
 
@@ -803,7 +803,7 @@ h4 {
 }
 
 .bg-dots-bg {
-    background-image: url("img/dots-bg.png");
+    background-color: rgba(0,0,0,0.3);
 }
 
 .bg-lines-h2-bg {
