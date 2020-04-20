@@ -43,6 +43,10 @@ blockquote footer{
     color: #000;
 }
 
+.social p{
+    display: none;
+}
+
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
