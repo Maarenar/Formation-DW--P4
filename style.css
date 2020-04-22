@@ -14,7 +14,6 @@ button {
 }
 
 a:hover {
-    text-decoration: none;
     cursor: pointer;
 }
 
@@ -342,7 +341,7 @@ blockquote footer{
 
 .nav > li a:hover,
 .nav > li a:focus {
-    background: transparent;
+    background: rgba(243,151,108,0.5);
 }
 
 .navbar-toggle {
@@ -836,12 +835,6 @@ h4 {
     background-image: url("img/image-de-presentation.bmp");
 }
 
-@media all and (max-width: 576px){
-    .social {
-        width: 50%;
-    }
-}
-
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -1043,17 +1036,26 @@ h4 {
         width: 180px;
         height: 320px;
     }
+    .social {
+        width: 100%;
+    }
+    .bloc-mob-center-text {
+        text-align: center;
+    }
+    .row{
+        margin: 0;
+    }
+    .black-background{
+        padding: 0;
+    }
+    blockquote{
+        margin-top: 40px;
+    }
 }
 
 @media (max-width: 400px) {
     .bloc {
         padding-left: 0;
         padding-right: 0;
-    }
-}
-
-@media (max-width: 767px) {
-    .bloc-mob-center-text {
-        text-align: center;
     }
 }
