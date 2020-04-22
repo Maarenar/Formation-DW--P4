@@ -46,13 +46,17 @@ blockquote footer{
     display: none;
 }
 
+.social ~ a:hover{
+    text-decoration: none;
+}
+
 .bloc .container {
     padding-left: 0;
     padding-right: 0;
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 70px 50px;
 }
 
 .bloc-md {
@@ -539,8 +543,10 @@ button {
 
 a[data-lightbox] {
     position: relative;
-    display: block;
+    display: flex;
     text-align: center;
+    flex-direction: row;
+    justify-content: center;
 }
 
 a[data-lightbox]:hover::before {
@@ -666,7 +672,7 @@ a {
 }
 
 .hero-bloc-text {
-    font-size: 38px;
+    font-size: 35px;
 }
 
 .hero-bloc-text-sub {
@@ -712,6 +718,10 @@ p {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+}
+
+.social a:hover{
+    text-decoration: none;
 }
 
 h2 {
@@ -904,17 +914,6 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
-    h1,
-    h2,
-    h3,
-    h4,
-    h5,
-    h6,
-    p,
-    #disqus_thread {
-        padding-left: 10px!important;
-        padding-right: 10px!important;
-    }
     .b-parallax {
         background-attachment: scroll;
     }
@@ -1020,9 +1019,6 @@ h4 {
     .voffset-lg {
         margin-top: 30px;
     }
-    form {
-        padding: 5px;
-    }
     .close-lightbox {
         display: inline-block;
     }
@@ -1042,14 +1038,49 @@ h4 {
     .bloc-mob-center-text {
         text-align: center;
     }
+    .bloc-lg{
+        padding: 0;
+    }
     .row{
         margin: 0;
+    }
+    .navbar{
+        padding: 0;
     }
     .black-background{
         padding: 0;
     }
     blockquote{
         margin-top: 40px;
+        padding: 0;
+    }
+    .bloc-sm{
+        padding: 0px 50px 0 50px;
+    }
+    .bloc-md{
+        padding: 0;
+    }
+    .navbar-nav{
+        margin: 7.5px -15px 0 -15px;
+    }
+    .tight-width-whitespace{
+        padding-bottom: 15px;
+        padding-top: 15px;
+    }
+    .col-sm-12 img{
+        max-width: 100px;
+    }
+    .row-no-gutters{
+        padding-bottom: 20px;
+    }
+}
+
+@media all and (max-width: 576px){
+    form{
+        padding: 25px 5px 25px 5px;
+    }
+    .col-sm-6 div{
+        padding: 0 5px 0 5px;
     }
 }
 
