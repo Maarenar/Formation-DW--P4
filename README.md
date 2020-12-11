@@ -7,7 +7,7 @@ Deliverables :
 - optimised version of the website's code
 - report on errors with justification + improvement made
 
-Original version (furnished by Openclassrooms) : <br>
+Original version (provided by Openclassrooms) : <br>
 https://lachouetteagencev1.marion-renard.net/
 
 
